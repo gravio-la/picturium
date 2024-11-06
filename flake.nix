@@ -113,6 +113,7 @@
                   "CACHE_ENABLE=${config.services.picturium.cacheEnable}"
                   "CACHE_CAPACITY=${config.services.picturium.cacheCapacity}"
                   "DATA_DIR=${config.services.picturium.dataDir}"
+                  "MPV=${pkgs.mpv}/bin/mpv"
                 ];
               };
             };
